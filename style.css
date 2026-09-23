@@ -1,0 +1,187 @@
+body {
+    background-color: #111;
+    color: #cccccc;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.servico h3 {
+  color: #ffbb00;
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.servico p {
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.servico button {
+  background-color: #ffbb00;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.servico button:hover {
+  background-color: #e6a800;
+  transform: scale(1.05);
+
+}
+
+  #servico-escolhido {
+    background-color: #1c1c1c;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #ffbb00;
+  }
+
+  #servico-escolhido input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ffbb00;
+    border-radius: 8px;
+    background-color: #111;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  #botao-continuar{
+    background-color: #ffbb00;
+    color: #111;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  #botao-continuar:hover {
+    background-color: #e6a800;
+    transform: scale(1.02);
+  }
+
+  #servico-escolhido label {
+    display: block;
+    font-weight: bold;
+    color: #cccccc;
+  }
+
+  .servico {
+    background-color: #1c1c1c;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #ffbb00;
+  }
+
+  /* TÍTULO PRINCIPAL */
+h2 {
+    color: white;
+    padding: 0 15px;
+}
+
+/* SERVIÇO SELECIONADO */
+#nome-servico {
+    color: #ffbb00;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* MELHORA OS CAMPOS QUANDO O CLIENTE CLICA */
+#servico-escolhido input:focus {
+    outline: none;
+    border: 2px solid #ffbb00;
+}
+
+/* RODAPÉ / ESPAÇO FINAL DA PÁGINA */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+/* AJUSTES PARA CELULAR */
+@media (max-width: 600px) {
+
+    h2 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .servico {
+        margin: 15px;
+        padding: 20px;
+        max-width: none;
+    }
+
+    .servico h3 {
+        font-size: 19px;
+    }
+
+    .servico p {
+        font-size: 15px;
+    }
+
+    .servico button {
+        width: 100%;
+    }
+
+    #servico-escolhido {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+
+    #servico-escolhido h3 {
+        font-size: 19px;
+    }
+
+    #botao-continuar {
+        width: 100%;
+    }
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+    border-top: 1px solid #333;
+    color: #888;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer p:first-child {
+    color: #ffbb00;
+    font-weight: bold;
+    font-size: 17px;
+}
+* {
+    box-sizing: border-box;
+}
