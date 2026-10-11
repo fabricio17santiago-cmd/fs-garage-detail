@@ -1,0 +1,28 @@
+FS GARAGE DETAIL 10.0
+
+ARQUIVOS
+- index.html: estrutura do site
+- style.css: aparência e responsividade
+- script.js: menu, seleção de serviços e agendamento pelo WhatsApp
+
+COMO TESTAR
+1. Extraia a pasta do ZIP.
+2. Abra index.html no Chrome.
+3. Teste menu, seleção de serviços, nome, telefone, data e WhatsApp.
+4. Teste no modo celular do Chrome (F12).
+
+COMO PUBLICAR
+1. Guarde uma cópia dos arquivos antigos antes de substituir.
+2. No repositório GitHub Pages já existente, substitua os três arquivos pelos novos na raiz.
+3. Aguarde o GitHub Pages publicar e atualize o site com Ctrl+F5.
+
+PERSONALIZAR
+- WhatsApp: constante WHATSAPP no começo do script.js.
+- Instagram: links no index.html (atualmente fs_garage_detail).
+- Serviços e descrições: cartões e opções de select no index.html.
+- Cores: variáveis no início de style.css.
+
+OBSERVAÇÕES
+- O formulário envia uma solicitação; não reserva automaticamente a data.
+- Sem fotos externas, bibliotecas, backend ou serviços pagos.
+- Não há pagamentos online nem painel de agenda nesta versão.

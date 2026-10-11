@@ -1,83 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FS GARAGE DETAIL</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d10">
+  <meta name="description" content="FS Garage Detail: estética premium para motos. Lavagem, polimento e vitrificação. Solicite seu agendamento pelo WhatsApp.">
+  <title>FS GARAGE DETAIL | Estética premium para motos</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
- <body>   
-
-        <img src="banner.jpg.jpeg" alt="FS GARAGE DETAIL">
-
-        <h2>ESCOLHA O SERVICO PARA SUA MOTO.</h2>
-
-       <div class="servico">
-            <h3>LAVAGEM SIMPLES:</h3>
-
-            <P>LAVAGEM SIMPLES, PRETINHO NOS PNEUS E ACABAMENTO REFINADO.</P>
-
-            <button>SELECIONAR SERVIÇO</button>
-        </div>
-
-        <div class="servico">
-            <h3>LAVAGEM DETALHADA:</h3>
-
-            <P>LAVAGEM NOS MINIMOS DETALHES, APLICAÇÃO DE VERNIZ DE MOTOR E ACABAMENTO PREMIUM.</P>
-
-            <button>SELECIONAR SERVIÇO</button>
-        </div>
-
-        <div class="servico">
-            <h3>POLIMENTO COMERCIAL:</h3>
-
-            <p>É UM SERVIÇO RAPIDO, COM ACABAMENTO DE ALTO PADRÃO, IDEAL PARA QUEM QUER UM SERVIÇO DE QUALIDADE EM MENOS TEMPO.</p>
-
-            <button>SELECIONAR SERVIÇO</button>
-        </div>
-
-        <div class="servico">
-            <h3> POLIMENTO TECNICO:</h3>
-
-            <p>É UM SERVIÇO COMPLETO, COM ACABAMENTO DE ALTO PADRÃO, IDEAL PARA QUEM QUER UM SERVIÇO DE QUALIDADE COM ALTO BRILHO.</p>
-
-            <button>SELECIONAR SERVIÇO</button>
-        </div>
-
-        <div class="servico">
-            <h3>VITRIFICAÇÃO COMPLETA:</h3>
-
-            <P>É UM SERVIÇO QUE PROPORCIONA UMA COBERTURA COMPLETA E DURADOURA, IDEAL PARA QUEM QUER PROTEGER E REALÇAR O BRILHO DA SUA MOTO E MANTER A SUA APARÊNCIA COMO NOVA POR MAIS TEMPO.</P>
-
-            <button>SELECIONAR SERVIÇO:</button>
-            </div> 
-
-        <div id="servico-escolhido">
-            <h3>SERVIÇO SELECIONADO:</h3>
-            <p id="nome-servico"></p>
-
-            <label for="cliente-nome">SEU NOME:</label>
-            <input type="text" id="cliente-nome" placeholder="digite seu nome">
-
-            <label for="cliente-telefone"> SEU TELEFONE:</label>
-            <input type="tel" id="cliente-telefone" placeholder="(27) 99651-1198">
-
-            <label for="data-agendamento">DATA DO AGENDAMENTO:</label>
-            <input type="date" id="data-agendamento">
-            <p id="nome-cliente"></p>
-
-            <button id="botao-continuar">CONTINUAR</button>
-        </div>
-
-        <footer>
-            <p> FS GARAGE DETAIL</p>
-            <P> ESTETICA AUTOMOTIVA PARA MOTOS</P>
-        </footer>
-        
-        <script src="script.js"></script>
-
-        </body>
-        </html>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header" id="inicio">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio" aria-label="FS Garage Detail, início"><span class="brand-mark">FS<span>.</span></span><span class="brand-copy">GARAGE <strong>DETAIL</strong><small>MOTORCYCLE CARE</small></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">☰</button>
+      <div class="nav-links" id="nav-links"><a href="#servicos">Serviços</a><a href="#diferenciais">Diferenciais</a><a href="#sobre">Sobre</a><a href="#duvidas">Dúvidas</a><a class="nav-cta" href="#agendamento">Agendar serviço ↗</a></div>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero container">
+      <div class="hero-content"><p class="eyebrow"><span class="status-dot"></span> ESTÉTICA PREMIUM PARA MOTOS</p><h1>O cuidado que sua moto <em>merece.</em></h1><p class="hero-desc">Da lavagem detalhada à proteção cerâmica. Cada detalhe importa quando o assunto é valorizar sua moto.</p><div class="hero-actions"><a class="btn btn-primary" href="#agendamento">AGENDAR SERVIÇO <span>↗</span></a><a class="btn btn-outline" href="#servicos">CONHECER SERVIÇOS ↓</a></div><div class="hero-stats"><span>ACABAMENTO <strong>PREMIUM</strong></span><span>ATENDIMENTO <strong>PERSONALIZADO</strong></span><span>FOCO EM <strong>DETALHES</strong></span></div></div>
+      <div class="hero-art" aria-hidden="true"><div class="art-glow"></div><div class="art-frame"><span class="art-top">FS / 10.0</span><span class="art-symbol">FS<span>.</span></span><span class="art-bottom">GARAGE DETAIL<br>PRECISION IN EVERY DETAIL</span></div><span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span></div>
+    </section>
+    <section class="ticker" aria-label="Especialidades"><div>DETALHAMENTO <span>✦</span> POLIMENTO <span>✦</span> VITRIFICAÇÃO <span>✦</span> PROTEÇÃO <span>✦</span> CUIDADO PREMIUM</div></section>
+    <section class="section container" id="servicos"><div class="section-head"><div><p class="eyebrow">O QUE FAZEMOS</p><h2>Serviços para cada <em>necessidade.</em></h2></div><p>Escolha o cuidado ideal para sua moto. Os detalhes e valores podem ser confirmados no atendimento.</p></div><div class="service-grid" id="service-grid">
+      <article class="service-card" data-service="Lavagem simples"><span class="service-number">01 / LAVAGEM</span><div class="service-icon">✧</div><h3>Lavagem simples</h3><p>Limpeza externa, acabamento cuidadoso e tratamento dos pneus.</p><button class="service-select" type="button">SELECIONAR SERVIÇO <span>↗</span></button></article>
+      <article class="service-card" data-service="Lavagem detalhada"><span class="service-number">02 / DETALHAMENTO</span><div class="service-icon">◈</div><h3>Lavagem detalhada</h3><p>Limpeza minuciosa, atenção aos detalhes e acabamento premium, com verniz de motor conforme avaliação.</p><button class="service-select" type="button">SELECIONAR SERVIÇO <span>↗</span></button></article>
+      <article class="service-card" data-service="Polimento comercial"><span class="service-number">03 / POLIMENTO</span><div class="service-icon">✦</div><h3>Polimento comercial</h3><p>Realce de brilho e melhoria estética da pintura, com execução mais rápida.</p><button class="service-select" type="button">SELECIONAR SERVIÇO <span>↗</span></button></article>
+      <article class="service-card" data-service="Polimento técnico"><span class="service-number">04 / CORREÇÃO</span><div class="service-icon">◇</div><h3>Polimento técnico</h3><p>Trabalho criterioso para corrigir imperfeições e valorizar o acabamento da pintura.</p><button class="service-select" type="button">SELECIONAR SERVIÇO <span>↗</span></button></article>
+      <article class="service-card featured" data-service="Vitrificação completa"><span class="service-number">05 / PROTEÇÃO CERÂMICA</span><span class="featured-tag">DESTAQUE</span><div class="service-icon">⬡</div><h3>Vitrificação completa</h3><p>Proteção e acabamento para pintura e componentes compatíveis, conforme avaliação e produtos utilizados.</p><button class="service-select" type="button">SELECIONAR SERVIÇO <span>↗</span></button></article>
+    </div></section>
+    <section class="section dark-band" id="diferenciais"><div class="container"><p class="eyebrow">NOSSO COMPROMISSO</p><h2>Não é só limpeza.<br><em>É atenção aos detalhes.</em></h2><div class="feature-grid"><div><span>01</span><h3>Cuidado individual</h3><p>Serviço pensado de acordo com o estado e a necessidade da sua moto.</p></div><div><span>02</span><h3>Processo criterioso</h3><p>Produtos e técnicas escolhidos para cada superfície.</p></div><div><span>03</span><h3>Acabamento refinado</h3><p>Nosso objetivo é entregar uma moto com aparência valorizada.</p></div></div></div></section>
+    <section class="section container" id="sobre"><div class="about-grid"><div><p class="eyebrow">QUEM SOMOS</p><h2>Paixão por motos.<br><em>Respeito por cada detalhe.</em></h2></div><div><p>A FS GARAGE DETAIL é dedicada à estética de motocicletas, com serviços de lavagem, detalhamento, polimento e proteção de superfícies.</p><p>Mais do que melhorar a aparência, buscamos entregar uma experiência de cuidado e atenção em cada etapa.</p><a class="text-link" href="https://www.instagram.com/fs_garage_detail/" target="_blank" rel="noopener noreferrer">ACOMPANHE NO INSTAGRAM ↗</a></div></div></section>
+    <section class="section booking-band" id="agendamento"><div class="container booking-grid"><div><p class="eyebrow">AGENDAMENTO</p><h2>Seu próximo cuidado <em>começa aqui.</em></h2><p>Escolha um serviço e informe seus dados. Ao continuar, abriremos o WhatsApp com sua solicitação pronta.</p><div class="booking-note">◷ A data é uma preferência de agendamento. A disponibilidade será confirmada pelo WhatsApp.</div></div><form class="booking-form" id="booking-form" novalidate><p class="form-kicker">SOLICITAR AGENDAMENTO</p><h3>Vamos cuidar da sua moto?</h3><label for="servico">SERVIÇO DESEJADO</label><select id="servico" name="servico" required><option value="">Selecione um serviço</option><option>Lavagem simples</option><option>Lavagem detalhada</option><option>Polimento comercial</option><option>Polimento técnico</option><option>Vitrificação completa</option></select><label for="nome">SEU NOME</label><input id="nome" name="nome" type="text" placeholder="Digite seu nome" autocomplete="name" required maxlength="80"><label for="telefone">SEU WHATSAPP</label><input id="telefone" name="telefone" type="tel" placeholder="(27) 99999-9999" autocomplete="tel" inputmode="tel" required maxlength="20"><label for="data">DATA PREFERIDA</label><input id="data" name="data" type="date" required><p class="form-error" id="form-error" role="alert" aria-live="polite"></p><button class="btn btn-primary submit" type="submit">SOLICITAR PELO WHATSAPP ↗</button><small>O envio não confirma automaticamente o agendamento.</small></form></div></section>
+    <section class="section container faq" id="duvidas"><div class="section-head"><div><p class="eyebrow">PERGUNTAS FREQUENTES</p><h2>Alguma <em>dúvida?</em></h2></div></div><div class="faq-list"><details><summary>Qual a diferença entre lavagem simples e detalhada?</summary><p>A simples prioriza a limpeza externa e o acabamento. A detalhada envolve maior atenção às áreas e componentes, conforme o pacote contratado.</p></details><details><summary>A vitrificação serve para qualquer superfície?</summary><p>Não necessariamente. Cada superfície precisa ser avaliada para escolher um produto compatível e um preparo adequado.</p></details><details><summary>O agendamento pelo site já fica confirmado?</summary><p>Não. O formulário abre uma solicitação no WhatsApp. A data e a disponibilidade são confirmadas durante o atendimento.</p></details><details><summary>Como saber qual serviço minha moto precisa?</summary><p>Entre em contato pelo WhatsApp e descreva o estado da moto. Podemos orientar sobre a opção mais adequada.</p></details></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-main"><a class="brand" href="#inicio"><span class="brand-mark">FS<span>.</span></span><span class="brand-copy">GARAGE <strong>DETAIL</strong><small>MOTORCYCLE CARE</small></span></a><p>Seu cuidado começa nos detalhes.</p><div><a href="#servicos">SERVIÇOS</a><a href="#agendamento">AGENDAR</a><a href="https://www.instagram.com/fs_garage_detail/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a></div></div><div class="container footer-bottom"><span>© <span id="ano"></span> FS GARAGE DETAIL. Todos os direitos reservados.</span><a href="#inicio">VOLTAR AO TOPO ↑</a></div></footer>
+  <a class="whatsapp-float" href="https://wa.me/5527996511198" target="_blank" rel="noopener noreferrer" aria-label="Falar pelo WhatsApp">✆ <span>WHATSAPP</span></a>
+</body>
+</html>
